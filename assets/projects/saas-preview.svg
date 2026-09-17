@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="saasBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#051228"/>
+      <stop offset="100%" stop-color="#0A224D"/>
+    </linearGradient>
+    <linearGradient id="chartGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(0, 229, 255, 0.4)"/>
+      <stop offset="100%" stop-color="rgba(0, 229, 255, 0.0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#saasBg)"/>
+
+  <!-- Analytics Dashboard UI -->
+  <g transform="translate(80, 50)">
+    <rect x="0" y="0" width="640" height="400" rx="14" fill="#081A38" stroke="rgba(22, 139, 255, 0.3)" stroke-width="2"/>
+    <rect x="0" y="0" width="640" height="44" rx="14" fill="#0D2550"/>
+    <text x="24" y="28" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="sans-serif">DataPulse BI • Executive Analytics Portal</text>
+    <rect x="520" y="10" width="96" height="24" rx="6" fill="#1D4ED8"/>
+    <text x="532" y="26" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="sans-serif">Eksport PDF</text>
+
+    <!-- Top KPI row -->
+    <g transform="translate(24, 60)">
+      <rect x="0" y="0" width="180" height="66" rx="8" fill="#0B2044" stroke="rgba(255,255,255,0.06)"/>
+      <text x="14" y="22" fill="#94A3B8" font-size="11" font-family="sans-serif">Oylik Tushum</text>
+      <text x="14" y="50" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="sans-serif">$42,850</text>
+      <text x="110" y="50" fill="#10B981" font-size="11" font-weight="bold" font-family="sans-serif">↑ +18.4%</text>
+
+      <rect x="206" y="0" width="180" height="66" rx="8" fill="#0B2044" stroke="rgba(255,255,255,0.06)"/>
+      <text x="220" y="22" fill="#94A3B8" font-size="11" font-family="sans-serif">Yangi Mijozlar</text>
+      <text x="220" y="50" fill="#00E5FF" font-size="20" font-weight="bold" font-family="sans-serif">1,248 ta</text>
+      <text x="320" y="50" fill="#10B981" font-size="11" font-weight="bold" font-family="sans-serif">↑ +24%</text>
+
+      <rect x="412" y="0" width="180" height="66" rx="8" fill="#0B2044" stroke="rgba(255,255,255,0.06)"/>
+      <text x="426" y="22" fill="#94A3B8" font-size="11" font-family="sans-serif">Konversiya Darajasi</text>
+      <text x="426" y="50" fill="#F59E0B" font-size="20" font-weight="bold" font-family="sans-serif">6.82%</text>
+      <text x="520" y="50" fill="#10B981" font-size="11" font-weight="bold" font-family="sans-serif">↑ +1.2%</text>
+    </g>
+
+    <!-- Main Chart Card -->
+    <g transform="translate(24, 144)">
+      <rect x="0" y="0" width="592" height="230" rx="10" fill="#0B2044" stroke="rgba(22, 139, 255, 0.2)"/>
+      <text x="20" y="30" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="sans-serif">Daromad Dinamikasi &amp; Tizim Samardorligi</text>
+      
+      <!-- Chart Area -->
+      <path d="M 30 180 Q 120 150 200 110 T 380 90 T 560 40 L 560 190 L 30 190 Z" fill="url(#chartGrad)"/>
+      <path d="M 30 180 Q 120 150 200 110 T 380 90 T 560 40" fill="none" stroke="#00E5FF" stroke-width="3"/>
+      
+      <!-- Highlight Points -->
+      <circle cx="200" cy="110" r="5" fill="#FFFFFF" stroke="#0066FF" stroke-width="2"/>
+      <circle cx="380" cy="90" r="5" fill="#FFFFFF" stroke="#0066FF" stroke-width="2"/>
+      <circle cx="560" cy="40" r="6" fill="#10B981" stroke="#FFFFFF" stroke-width="2"/>
+
+      <!-- Tooltip -->
+      <rect x="470" y="10" width="80" height="24" rx="4" fill="#06142E" stroke="#10B981" stroke-width="1"/>
+      <text x="480" y="26" fill="#10B981" font-size="10" font-weight="bold" font-family="sans-serif">+$42.8k Rec</text>
+    </g>
+  </g>
+</svg>

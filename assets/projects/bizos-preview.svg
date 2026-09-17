@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#051229"/>
+      <stop offset="100%" stop-color="#0A255C"/>
+    </linearGradient>
+    <linearGradient id="blueAccentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00E5FF"/>
+    </linearGradient>
+    <filter id="boxShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bgGrad2)"/>
+
+  <!-- Subtle connecting circuit lines -->
+  <g opacity="0.12" stroke="#00E5FF" stroke-width="1.5" fill="none">
+    <path d="M 100 250 H 300 V 150 H 500 V 350 H 700"/>
+    <circle cx="300" cy="150" r="5" fill="#00E5FF"/>
+    <circle cx="500" cy="350" r="5" fill="#00E5FF"/>
+  </g>
+
+  <!-- Central CRM & Automation Workflow Board -->
+  <g transform="translate(60, 50)" filter="url(#boxShadow)">
+    <rect x="0" y="0" width="680" height="340" rx="14" fill="#081A38" stroke="rgba(22, 139, 255, 0.3)" stroke-width="2"/>
+    
+    <!-- Top Bar -->
+    <rect x="0" y="0" width="680" height="46" rx="14" fill="#0D2755"/>
+    <text x="24" y="28" fill="#FFFFFF" font-size="15" font-weight="bold" font-family="sans-serif">BIZOS Enterprise — Avtomatlashtirilgan Ish Jarayoni &amp; CRM</text>
+    <rect x="540" y="12" width="116" height="24" rx="12" fill="rgba(0, 229, 255, 0.2)" stroke="#00E5FF" stroke-width="1"/>
+    <text x="552" y="28" fill="#00E5FF" font-size="11" font-weight="bold" font-family="sans-serif">● 24/7 Avtomatika</text>
+
+    <!-- 3 Pipeline Columns -->
+    <!-- Column 1: Yangi Lidlar (Inbound Leads) -->
+    <g transform="translate(24, 66)">
+      <rect x="0" y="0" width="200" height="250" rx="8" fill="#0A1F45"/>
+      <text x="14" y="24" fill="#94A3B8" font-size="12" font-weight="bold" font-family="sans-serif">Yangi Murojaatlar (14)</text>
+      <line x1="0" y1="36" x2="200" y2="36" stroke="rgba(255,255,255,0.06)"/>
+
+      <!-- Lead 1 -->
+      <rect x="10" y="48" width="180" height="58" rx="6" fill="#0F2E64" stroke="rgba(22, 139, 255, 0.25)"/>
+      <text x="20" y="68" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="sans-serif">Alisher V. • Telegram Bot</text>
+      <text x="20" y="84" fill="#94A3B8" font-size="9" font-family="sans-serif">B2B CRM tizimi buyurtmasi</text>
+      <rect x="20" y="90" width="54" height="12" rx="3" fill="#0066FF"/>
+      <text x="24" y="99" fill="#FFFFFF" font-size="8" font-family="sans-serif">Telegram</text>
+
+      <!-- Lead 2 -->
+      <rect x="10" y="114" width="180" height="58" rx="6" fill="#0F2E64" stroke="rgba(22, 139, 255, 0.25)"/>
+      <text x="20" y="134" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="sans-serif">Artel Partner • Web Site</text>
+      <text x="20" y="150" fill="#94A3B8" font-size="9" font-family="sans-serif">Ombor avtomatizatsiyasi</text>
+      <rect x="20" y="156" width="48" height="12" rx="3" fill="#10B981"/>
+      <text x="24" y="165" fill="#FFFFFF" font-size="8" font-family="sans-serif">Website</text>
+    </g>
+
+    <!-- Column 2: AI Tahlil & Saralash (AI Processing) -->
+    <g transform="translate(240, 66)">
+      <rect x="0" y="0" width="200" height="250" rx="8" fill="#0A1F45"/>
+      <text x="14" y="24" fill="#00E5FF" font-size="12" font-weight="bold" font-family="sans-serif">AI Saralash &amp; Trigger (8)</text>
+      <line x1="0" y1="36" x2="200" y2="36" stroke="rgba(255,255,255,0.06)"/>
+
+      <rect x="10" y="48" width="180" height="84" rx="6" fill="#0C2D6A" stroke="#00E5FF" stroke-width="1"/>
+      <text x="20" y="68" fill="#00E5FF" font-size="11" font-weight="bold" font-family="sans-serif">⚡ AI Smart Bot Javobi</text>
+      <text x="20" y="86" fill="#FFFFFF" font-size="10" font-family="sans-serif">Mijoz ehtiyoji aniqlandi:</text>
+      <text x="20" y="100" fill="#94A3B8" font-size="9" font-family="sans-serif">Tijoriy taklif avtomatik jo‘natildi</text>
+      <rect x="20" y="108" width="80" height="14" rx="4" fill="rgba(0, 229, 255, 0.2)"/>
+      <text x="24" y="119" fill="#00E5FF" font-size="8" font-weight="bold" font-family="sans-serif">Status: OK 200</text>
+
+      <rect x="10" y="140" width="180" height="58" rx="6" fill="#0F2E64" stroke="rgba(22, 139, 255, 0.25)"/>
+      <text x="20" y="160" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="sans-serif">Toshkent Trade MChJ</text>
+      <text x="20" y="176" fill="#94A3B8" font-size="9" font-family="sans-serif">Shartnoma generatsiyasi...</text>
+    </g>
+
+    <!-- Column 3: Bajarildi & Monitoring (Completed / Monitored) -->
+    <g transform="translate(456, 66)">
+      <rect x="0" y="0" width="200" height="250" rx="8" fill="#0A1F45"/>
+      <text x="14" y="24" fill="#10B981" font-size="12" font-weight="bold" font-family="sans-serif">Muvaffaqiyatli Integratsiya</text>
+      <line x1="0" y1="36" x2="200" y2="36" stroke="rgba(255,255,255,0.06)"/>
+
+      <rect x="10" y="48" width="180" height="74" rx="6" fill="#0A2A54" stroke="#10B981" stroke-width="1"/>
+      <text x="20" y="68" fill="#10B981" font-size="11" font-weight="bold" font-family="sans-serif">✓ 1C &amp; Click Sync</text>
+      <text x="20" y="86" fill="#FFFFFF" font-size="10" font-family="sans-serif">To‘lov qabul qilindi</text>
+      <text x="20" y="102" fill="#94A3B8" font-size="9" font-family="sans-serif">Xodimga xabar ketdi (0.4s)</text>
+
+      <!-- Mini Chart -->
+      <g transform="translate(14, 136)">
+        <text x="0" y="12" fill="#94A3B8" font-size="10" font-family="sans-serif">Samaradorlik: +340%</text>
+        <path d="M 0 50 Q 40 40 80 28 T 160 8" fill="none" stroke="#00E5FF" stroke-width="2.5"/>
+        <circle cx="160" cy="8" r="4" fill="#10B981"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Badges -->
+  <g transform="translate(60, 410)">
+    <rect x="0" y="0" width="680" height="50" rx="8" fill="rgba(10, 31, 68, 0.85)" stroke="rgba(22, 139, 255, 0.2)"/>
+    <text x="24" y="30" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="sans-serif">Node.js • Laravel • CRM • Telegram Bot • AI • Webhooks • Workflows • API</text>
+  </g>
+</svg>

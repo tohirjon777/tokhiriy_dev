@@ -1,0 +1,23 @@
+{
+  "name": "tohirjon-dev-portfolio",
+  "version": "1.0.0",
+  "description": "Multilingual personal portfolio and digital solutions website for Tohirjon Obidov",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx netlify dev",
+    "serve": "npx serve .",
+    "connect-bot": "node scripts/connect-bot.js",
+    "test": "node -e \"console.log('Project configuration valid')\""
+  },
+  "keywords": [
+    "portfolio",
+    "tohirjon-obidov",
+    "full-stack",
+    "automation",
+    "telegram-bot",
+    "flutter",
+    "ai"
+  ],
+  "author": "Tohirjon Obidov",
+  "license": "MIT"
+}

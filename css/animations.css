@@ -1,0 +1,108 @@
+/**
+ * Animations & Micro-Interactions for Tohirjon Obidov's Portfolio
+ * High performance GPU-accelerated transforms & keyframes.
+ */
+
+/* Glowing Brand Dot Pulse */
+@keyframes pulseDot {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 8px var(--accent);
+  }
+  50% {
+    transform: scale(1.35);
+    box-shadow: 0 0 16px var(--accent-cyan);
+  }
+}
+
+/* Floating Badges Animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* Hero Rotating Text Transitions */
+.text-fade-out {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.text-fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+/* Scroll Reveal Elements */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-on-scroll.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger Delays for Grouped Cards */
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-delay-4 { transition-delay: 0.4s; }
+
+/* Shimmer Effect on Primary Buttons */
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -60%;
+  width: 20%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.25);
+  transform: rotate(30deg);
+  pointer-events: none;
+  transition: none;
+}
+
+.btn-primary:hover::after {
+  left: 140%;
+  transition: left 0.7s ease-in-out;
+}
+
+/* Subtle Pulsing Border on Featured Card */
+@keyframes borderGlow {
+  0%, 100% {
+    border-color: rgba(22, 139, 255, 0.3);
+  }
+  50% {
+    border-color: rgba(0, 229, 255, 0.6);
+  }
+}
+
+.featured-card {
+  animation: borderGlow 4s ease-in-out infinite;
+}
+
+/* Respect Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reveal-on-scroll {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

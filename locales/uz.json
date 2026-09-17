@@ -1,0 +1,354 @@
+{
+  "seo": {
+    "title": "Tohirjon Obidov — Web, Mobil, Telegram Bot, AI va Avtomatlashtirish",
+    "description": "Tohirjon Obidov — Professional dasturchi va raqamli yechimlar mutaxassisi. Web saytlar, mobil ilovalar, Telegram botlar, AI integratsiyalar va biznes jarayonlarini avtomatlashtirish tizimlari yarataman.",
+    "ogTitle": "Tohirjon Obidov — Dasturchi va Raqamli Yechimlar Mutaxassisi",
+    "ogDescription": "Raqamli g‘oyalarni real ishlaydigan mahsulotlarga aylantiraman. Biznesingiz uchun to‘liq raqamli tizimlar va avtomatlashtirish."
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Men haqimda",
+    "services": "Xizmatlar",
+    "experience": "Tajriba",
+    "automation": "Avtomatlashtirish",
+    "portfolio": "Portfolio",
+    "process": "Jarayon",
+    "tech": "Texnologiyalar",
+    "contact": "Bog‘lanish",
+    "cta": "Loyihani boshlash",
+    "menuToggle": "Menyuni ochish / yopish"
+  },
+  "hero": {
+    "badge": "Yangi loyihalar uchun ochiq",
+    "greeting": "Assalomu alaykum, men Tohirjon Obidov",
+    "title": "Raqamli g‘oyalarni real mahsulotga aylantiraman.",
+    "subtitle": "Web saytlar, mobil ilovalar, Telegram botlar, AI integratsiyalar va biznes jarayonlarini avtomatlashtiruvchi raqamli tizimlar yarataman.",
+    "ctaPrimary": "Loyihani boshlash",
+    "ctaSecondary": "Ishlarimni ko‘rish",
+    "categories": [
+      "Web saytlar",
+      "Mobil ilovalar",
+      "Telegram botlar",
+      "AI yechimlar",
+      "Biznes avtomatizatsiyasi",
+      "Startup MVP'lar"
+    ],
+    "metrics": {
+      "experience": "Yillik amaliy tajriba",
+      "solutions": "Muvaffaqiyatli raqamli tizimlar",
+      "satisfaction": "Mijozlar ishonchi va qo‘llab-quvvatlash",
+      "speed": "Tezkor va xavfsiz arxitektura"
+    },
+    "quickContact": "Tezkor bog‘lanish:"
+  },
+  "about": {
+    "badge": "Men haqimda",
+    "title": "Biznesingiz uchun shunchaki kod emas, to‘liq raqamli natija yarataman",
+    "lead": "Men Tohirjon Obidov — dasturchi va raqamli yechimlar mutaxassisiman. Web platformalar, mobil ilovalar, Telegram botlar, AI integratsiyalar hamda biznes jarayonlarini avtomatlashtirish yo‘nalishida ishlayman.",
+    "description": "Mening asosiy maqsadim — kompaniyalarga shunchaki chiroyli sahifa yasab berish emas, balki ularning sotuvlarini oshiruvchi, xodimlarining vaqtini tejovchi va operatsion xatoliklarni nolga tushiruvchi mukammal raqamli arxitektura barpo etishdir.",
+    "pillars": {
+      "productTitle": "Mahsulot darajasidagi yondashuv",
+      "productDesc": "Har bir loyiha boshidan to‘liq foydalanuvchi tajribasi (UX), konversiya va biznes mantiqi asosida loyihalanadi.",
+      "techTitle": "Zamonaviy va barqaror texnologiyalar",
+      "techDesc": "Flutter, Laravel, Firebase, Node.js va zamonaviy API integratsiyalari orqali kengaytiriluvchi tizimlar quraman.",
+      "automationTitle": "Jarayonlarni to‘liq avtomatlashtirish",
+      "automationDesc": "Telegram botlar, CRM tizimlari va AI modellarini birlashtirib, qo‘lda bajariladigan ishlarni tizimli avtomatlashtiraman."
+    },
+    "stats": {
+      "stat1Num": "100%",
+      "stat1Label": "Mas'uliyat va sifat",
+      "stat2Num": "24/7",
+      "stat2Label": "Tizim barqarorligi",
+      "stat3Num": "3x",
+      "stat3Label": "Jarayonlar tezlashuvi"
+    }
+  },
+  "experience": {
+    "badge": "Real Tajriba va Mahsulotlar",
+    "title": "Haqiqiy biznes loyihalarida sinovdan o‘tgan yechimlar",
+    "subtitle": "Kompaniyalar va startaplar uchun ishlab chiqilayotgan hamda real amaliyotda ishlayotgan yirik tizimlar.",
+    "automaster": {
+      "tag": "Featured Product / Startup Project",
+      "title": "AutoMaster — Avtoservis Raqamli Ekotizimi",
+      "desc": "AutoMaster — avtomobil egalari va xizmat ko‘rsatuvchi ustalarni raqamli tizim orqali bog‘lashga mo‘ljallangan servis platformasi.",
+      "longDesc": "Platforma avtomobil egalari uchun qulay xizmat qidirish, ustalarning profili va baholarini ko‘rish, onlayn navbatga yozilish va buyurtma holatini kuzatish imkoniyatini taqdim etadi. Servis ustalari va avtomarkazlar uchun esa buyurtmalar oqimini boshqarish, xodimlar ish jadvali, avtomatlashtirilgan bildirishnomalar hamda to‘liq ma'muriy boshqaruv panelini ta'minlaydi.",
+      "features": [
+        "Mobil ilova (iOS & Android)",
+        "Xizmatlar va ustaxonalar qidiruvi",
+        "Onlayn bron qilish va navbat tizimi",
+        "Mijoz va servis ustasi kabinetlari",
+        "Telegram va Push bildirishnomalar",
+        "Xarita va geolokatsiya integratsiyasi",
+        "Kuchli Admin boshqaruv paneli"
+      ],
+      "cta": "Batafsil ko‘rish"
+    },
+    "bizos": {
+      "tag": "Business Process Automation",
+      "title": "BIZOS — Biznes Jarayonlarini Avtomatlashtirish",
+      "desc": "BIZOS — biznes jarayonlarini tizimlashtirish va avtomatlashtirish yo‘nalishida ishlaydigan loyiha. BIZOS doirasida kompaniyalarning kundalik jarayonlarini raqamli tizimlar, integratsiyalar, CRM, avtomatlashtirish va zamonaviy texnologiyalar orqali samaraliroq qilish ustida ishlayman.",
+      "longDesc": "BIZOS doirasida kompaniyalarning sotuv voronkasi, mijozlar bilan muloqot, xodimlar vazifalari nazorati va hisobotlar yuritish tizimlari yagona avtomatlashtirilgan mexanizmga keltiriladi. Bu esa xarajatlarni kamaytiradi, inson omilidan kelib chiqadigan xatolarni bartaraf etadi.",
+      "features": [
+        "Biznes jarayonlarini chuqur tahlil qilish",
+        "CRM va sotuv voronkasi integratsiyasi",
+        "Ish oqimlarini avtomatlashtirish (Workflows)",
+        "Telegram xabarnomalar va nazorat botlari",
+        "AI asosidagi matn va so‘rovlar qayta ishlash",
+        "Moliya va buyurtmalar analitikasi",
+        "Tizimli arxitektura va API integratsiyalari"
+      ],
+      "cta": "Batafsil ko‘rish"
+    }
+  },
+  "services": {
+    "badge": "Xizmatlar",
+    "title": "G‘oyadan to‘liq ishga tushirishgacha bo‘lgan barcha xizmatlar",
+    "subtitle": "Biznesingiz ehtiyojlariga moslashtirilgan, o‘sish va foydani ko‘paytirishga yo‘naltirilgan texnologik yechimlar.",
+    "items": {
+      "s1": {
+        "num": "01",
+        "title": "Web Development",
+        "desc": "Zamonaviy, tez yuklanuvchi, barcha qurilmalarga moslashuvchan korporativ veb-saytlar, landing pagelar va murakkab web platformalar.",
+        "tags": ["Full-Stack", "Landing Page", "SaaS", "E-commerce", "REST API"]
+      },
+      "s2": {
+        "num": "02",
+        "title": "Telegram Botlar & Mini Apps",
+        "desc": "Sotuv, mijozlarga xizmat ko‘rsatish, to‘lovlarni qabul qilish va ichki boshqaruv uchun yuqori unumdor Telegram botlar hamda Mini App ilovalari.",
+        "tags": ["Telegram Mini App", "Click / Payme", "CRM Sync", "Avtomatik javoblar"]
+      },
+      "s3": {
+        "num": "03",
+        "title": "Mobil Dasturlash (Mobile Development)",
+        "desc": "Flutter yordamida iOS va Android platformalari uchun qulay interfeysli, tezkor va barqaror ishlaydigan sifatli mobil ilovalar yaratish.",
+        "tags": ["Flutter", "Dart", "iOS & Android", "Offline Sync", "Push xabarlar"]
+      },
+      "s4": {
+        "num": "04",
+        "title": "AI Yechimlar & Integratsiyalar",
+        "desc": "OpenAI, ChatGPT va aqlli neyron tarmoqlarini biznesingizga integratsiya qilish: mijozlar savollariga aqlli javoblar, hujjat tahlili va yordamchilar.",
+        "tags": ["OpenAI API", "Smart Chatbot", "Hujjatlar AI", "Avtomatik tahlil"]
+      },
+      "s5": {
+        "num": "05",
+        "title": "Biznes Avtomatlashtirish & CRM",
+        "desc": "Mijozlar bazasi, buyurtmalar oqimi, xodimlar faoliyati va hisobotlarni tartibga soluvchi maxsus CRM hamda avtomatlashtirish tizimlari.",
+        "tags": ["CRM", "Lead Management", "Sales Funnel", "Xabarnomalar", "API"]
+      },
+      "s6": {
+        "num": "06",
+        "title": "Marketing & Raqamli Yechimlar",
+        "desc": "Konversiyani oshiruvchi marketing voronkalari, analitika ulash (Google Analytics, Yandex Metrika, Pixel) va texnik SEO optimallashtirish.",
+        "tags": ["Konversiya UX", "SEO", "Analitika", "Marketing Funnel"]
+      },
+      "s7": {
+        "num": "07",
+        "title": "3D & Kreativ Texnologiyalar",
+        "desc": "Foydalanuvchi e'tiborini tortuvchi interaktiv 3D elementlar, silliq animatsiyalar va zamonaviy kreativ vizual yechimlar.",
+        "tags": ["Interaktiv UI", "Motion Design", "Zamonaviy Web", "Kreativ UX"]
+      }
+    }
+  },
+  "automation": {
+    "badge": "Biznes Avtomatlashtirish",
+    "title": "Takroriy jarayonlarni avtomatlashtirib, biznesingizni tezroq va samaraliroq ishlaydigan tizimga aylantirish",
+    "subtitle": "Inson omiliga bog‘liqlikni kamaytiring, har bir mijozni yo‘qotmasdan ushlab qoling va barcha hisobotlarni bir joydan nazorat qiling.",
+    "features": {
+      "f1Title": "CRM & Sotuv Voronkasi",
+      "f1Desc": "Murojaat qilgan har bir mijoz avtomatik ro‘yxatga olinadi va sotuv bosqichlari bo‘yicha tartibli taqsimlanadi.",
+      "f2Title": "Lead & Mijozlar Boshqaruvi",
+      "f2Desc": "Instagram, Telegram, Web-sayt va qo‘ng‘iroqlardan kelgan barcha lidlar yagona bazaga to‘planadi.",
+      "f3Title": "Avtomatlashtirilgan Ish Oqimlari (Workflows)",
+      "f3Desc": "Mijoz buyurtma berganda to‘lov kvitansiyasi yuborish, ustaga bildirishnoma jo‘natish kabi amallar avtomatlashadi.",
+      "f4Title": "Telegram Avtomatizatsiyasi",
+      "f4Desc": "Kompaniya rahbari va xodimlariga yangi buyurtmalar, to‘lovlar va muhim eslatmalar bir zumda Telegramga keladi.",
+      "f5Title": "AI & Aqlli Yordamchilar",
+      "f5Desc": "Mijozlarning standart savollariga 24/7 rejimida sun'iy intellekt orqali insondek tabiiy javob qaytarish.",
+      "f6Title": "API & Tizimlararo Integratsiya",
+      "f6Desc": "Sayt, to‘lov tizimlari (Click/Payme), 1C, ombor va pochta xizmatlarini uzluksiz o‘zaro bog‘lash.",
+      "f7Title": "Xabarnomalar & Eslatmalar",
+      "f7Desc": "Mijozlarga SMS, Telegram yoki email orqali buyurtma holati va eslatmalarni o‘z vaqtida jo‘natish.",
+      "f8Title": "Ichki Dashbordlar & Analitika",
+      "f8Desc": "Kunlik, haftalik va oylik daromad, buyurtmalar soni va xodimlar unumdorligini ko‘rsatuvchi jonli dashboardlar."
+    },
+    "impactBox": {
+      "title": "Avtomatlashtirish nima beradi?",
+      "point1": "Xodimlarning vaqtini 40% gacha tejaydi",
+      "point2": "Mijoz so‘rovlariga javob berish tezligi 10 barobar oshadi",
+      "point3": "Insoniy xatolar va unutilgan buyurtmalar butunlay yo‘qoladi",
+      "point4": "24/7 uzluksiz sotuv va monitoring ta'minlanadi"
+    }
+  },
+  "portfolio": {
+    "badge": "Portfolio",
+    "title": "Amalga oshirilgan loyihalar va raqamli tizimlar",
+    "subtitle": "Har bir loyiha muayyan biznes masalasini yechish va foydalanuvchiga qulaylik yaratish uchun barpo etilgan.",
+    "filters": {
+      "all": "Barchasi",
+      "web": "Web",
+      "mobile": "Mobil",
+      "bot": "Bot",
+      "ai": "AI",
+      "automation": "Avtomatlashtirish",
+      "startup": "Startup"
+    },
+    "viewDetails": "Loyiha tafsilotlari",
+    "modalTech": "Qo‘llanilgan texnologiyalar:",
+    "modalFeatures": "Asosiy imkoniyatlar:",
+    "modalImpact": "Biznes uchun bergan natijasi:",
+    "modalClose": "Yopish",
+    "discussProject": "Shunday loyihani muhokama qilish"
+  },
+  "tech": {
+    "badge": "Texnologiyalar",
+    "title": "Zamonaviy, ishonchli va barqaror texnologiyalar to‘plami",
+    "subtitle": "Kengaytiriluvchi, xavfsiz va yuqori tezlikka ega arxitekturani ta'minlovchi asboblar.",
+    "categories": {
+      "frontend": "Frontend & Web",
+      "backend": "Backend & Ma'lumotlar bazasi",
+      "mobile": "Mobil dasturlash",
+      "automation": "AI, Bot & Avtomatlashtirish",
+      "cloud": "Cloud, Git & Infratuzilma"
+    }
+  },
+  "process": {
+    "badge": "Ish Jarayoni",
+    "title": "G‘oyadan tayyor natijagacha 8 bosqichli professional yondashuv",
+    "subtitle": "Shaffof, aniq muddatli va har bir qadamda natijani nazorat qiluvchi ish tartibi.",
+    "steps": {
+      "step1": {
+        "num": "01",
+        "title": "Tanishuv",
+        "desc": "Mijoz bilan dastlabki suhbat, maqsadlar, ehtiyojlar va loyiha ko‘lamini o‘rganish."
+      },
+      "step2": {
+        "num": "02",
+        "title": "Tahlil",
+        "desc": "Bozor, raqobatchilar va auditoriyani tahlil qilib, optimal texnologik yechimni belgilash."
+      },
+      "step3": {
+        "num": "03",
+        "title": "Arxitektura",
+        "desc": "Ma'lumotlar bazasi tuzilishi, API va tizim xavfsizlik arxitekturasini loyihalash."
+      },
+      "step4": {
+        "num": "04",
+        "title": "Dizayn",
+        "desc": "Qulay foydalanuvchi tajribasi (UX) va zamonaviy interfeys (UI) prototipini yaratish."
+      },
+      "step5": {
+        "num": "05",
+        "title": "Dasturlash",
+        "desc": "Toza kod, modulli struktura va barcha belgilangan imkoniyatlarni dasturlash."
+      },
+      "step6": {
+        "num": "06",
+        "title": "Test",
+        "desc": "Turli qurilmalar, yuklamalar va xavfsizlik talablari bo‘yicha to‘liq sinovdan o‘tkazish."
+      },
+      "step7": {
+        "num": "07",
+        "title": "Ishga tushirish",
+        "desc": "Server va doimiy monitoringga ulash, to‘liq sozlash hamda loyihani topshirish."
+      },
+      "step8": {
+        "num": "08",
+        "title": "Qo‘llab-quvvatlash",
+        "desc": "Loyihaning barqaror ishlashini ta'minlash, yangilanishlar va texnik yordam ko‘rsatish."
+      }
+    }
+  },
+  "contact": {
+    "badge": "Bog‘lanish",
+    "title": "Yangi g‘oyangiz bormi? Keling, uni real mahsulotga aylantiramiz",
+    "subtitle": "Savollaringiz bo‘lsa yoki loyihani muhokama qilmoqchi bo‘lsangiz, qulay usulda xabar qoldiring.",
+    "infoTitle": "To‘g‘ridan-to‘g‘ri aloqa",
+    "infoDesc": "Odatda bir necha soat ichida javob beraman. Shoshilinch masalalar bo‘yicha Telegram orqali yozishingiz mumkin.",
+    "labels": {
+      "email": "Email manzil:",
+      "phone": "Telefon raqam:",
+      "telegram": "Telegram:",
+      "whatsapp": "WhatsApp:",
+      "location": "Joylashuv:",
+      "locationVal": "O‘zbekiston (Masofaviy & Butun dunyo)",
+      "schedule": "Ish vaqti:",
+      "scheduleVal": "Dushanba - Shanba (Moslashuvchan)"
+    },
+    "actionLabels": {
+      "writeEmail": "Email orqali yozish",
+      "callPhone": "Qo‘ng‘iroq qilish",
+      "openTelegram": "Telegram orqali yozish",
+      "openWhatsapp": "WhatsApp orqali yozish"
+    }
+  },
+  "form": {
+    "title": "Loyiha bo‘yicha ariza qoldiring",
+    "subtitle": "Quyidagi shaklni to‘ldiring, men siz bilan tez orada bog‘lanaman.",
+    "labels": {
+      "name": "Ismingiz",
+      "phone": "Telefon raqamingiz",
+      "telegram": "Telegram username",
+      "email": "Email manzil",
+      "company": "Kompaniya yoki tashkilot",
+      "service": "Xizmat turi",
+      "budget": "Taxminiy budjet",
+      "message": "Loyiha haqida batafsil ma'lumot"
+    },
+    "placeholders": {
+      "name": "Masalan: Jasur Aliyev",
+      "phone": "+998 90 123 45 67",
+      "telegram": "@username",
+      "email": "namuna@domain.uz",
+      "company": "Kompaniya nomi (ixtiyoriy)",
+      "service": "Xizmat turini tanlang",
+      "budget": "Budjet oralig‘ini tanlang",
+      "message": "Loyihangiz maqsadi, talablari va muddatlari haqida yozing..."
+    },
+    "servicesOptions": {
+      "default": "Xizmat turini tanlang",
+      "web": "Web sayt / Web platforma",
+      "mobile": "Mobil ilova (Flutter / Cross-platform)",
+      "bot": "Telegram bot / Telegram Mini App",
+      "ai": "AI integratsiya & Aqlli bot",
+      "automation": "Biznes avtomatlashtirish & CRM",
+      "complex": "Kompleks raqamli tizim / Startup MVP"
+    },
+    "budgetOptions": {
+      "default": "Budjet oralig‘ini tanlang",
+      "b1": "$300 — $800 (Kichik tizim / Landing / Bot)",
+      "b2": "$800 — $2,000 (O‘rta loyiha / CRM / Mini App)",
+      "b3": "$2,000 — $5,000 (To‘liq mobil ilova / Katta tizim)",
+      "b4": "$5,000+ (Kompleks ekotizim / Startup)"
+    },
+    "submit": "Ariza yuborish",
+    "sending": "Yuborilmoqda...",
+    "success": "✅ Arizangiz muvaffaqiyatli yuborildi. Tez orada siz bilan bog‘lanaman.",
+    "error": "❌ Xatolik yuz berdi. Iltimos, qaytadan urinib ko‘ring yoki to‘g‘ridan-to‘g‘ri Telegram orqali yozing.",
+    "validation": {
+      "nameRequired": "Iltimos, ismingizni kiriting.",
+      "contactRequired": "Iltimos, telefon raqamingiz yoki Telegram username kiriting.",
+      "messageRequired": "Iltimos, loyiha haqida qisqacha ma'lumot yozing."
+    },
+    "cooldown": "Iltimos, yangi so‘rov yuborishdan oldin biroz kuting."
+  },
+  "ctaBanner": {
+    "title": "Loyihangizni birgalikda boshlaymizmi?",
+    "subtitle": "Keling, biznesingiz jarayonlarini avtomatlashtiramiz va zamonaviy raqamli mahsulot yaratamiz.",
+    "btn": "Bog‘lanish"
+  },
+  "footer": {
+    "brandTagline": "Dasturchi • Raqamli Yechimlar Mutaxassisi • Avtomatlashtirish Mutaxassisi",
+    "aboutText": "Zamonaviy texnologiyalar yordamida g‘oyalarni yuqori daromadli va samarali ishlaydigan tizimlarga aylantiruvchi amaliy yechimlar.",
+    "navTitle": "Tezkor sahifalar",
+    "servicesTitle": "Asosiy yo‘nalishlar",
+    "contactTitle": "Aloqa",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "backToTop": "Yuqoriga qaytish"
+  },
+  "floating": {
+    "quickChat": "Menga yozish",
+    "telegram": "Telegram orqali tezkor javob",
+    "whatsapp": "WhatsApp orqali yozish",
+    "call": "Qo‘ng‘iroq qilish"
+  }
+}

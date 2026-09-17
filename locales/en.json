@@ -1,0 +1,354 @@
+{
+  "seo": {
+    "title": "Tohirjon Obidov — Web, Mobile, Telegram Bot, AI & Automation Developer",
+    "description": "Tohirjon Obidov — Senior Developer & Digital Solutions Specialist. Building high-performance websites, mobile applications, Telegram bots, AI integrations, and business automation systems.",
+    "ogTitle": "Tohirjon Obidov — Developer & Digital Solutions Specialist",
+    "ogDescription": "I turn digital ideas into real, working products. Complete digital ecosystems and workflow automation for your business."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "experience": "Experience",
+    "automation": "Automation",
+    "portfolio": "Portfolio",
+    "process": "Process",
+    "tech": "Technologies",
+    "contact": "Contact",
+    "cta": "Start a Project",
+    "menuToggle": "Open / close menu"
+  },
+  "hero": {
+    "badge": "Available for new projects",
+    "greeting": "Hello, I am Tohirjon Obidov",
+    "title": "I turn digital ideas into real products.",
+    "subtitle": "Building modern websites, mobile apps, Telegram bots, AI integrations, and digital systems that automate business processes.",
+    "ctaPrimary": "Start a Project",
+    "ctaSecondary": "View My Work",
+    "categories": [
+      "Websites",
+      "Mobile Apps",
+      "Telegram Bots",
+      "AI Solutions",
+      "Business Automation",
+      "Startup MVPs"
+    ],
+    "metrics": {
+      "experience": "Years of hands-on experience",
+      "solutions": "Successful digital systems",
+      "satisfaction": "Client trust & long-term support",
+      "speed": "High speed & secure architecture"
+    },
+    "quickContact": "Quick contact:"
+  },
+  "about": {
+    "badge": "About Me",
+    "title": "Delivering complete digital results for business, not just lines of code",
+    "lead": "I'm Tohirjon Obidov, a developer and digital solutions specialist working with web platforms, mobile applications, Telegram bots, AI integrations, and business process automation.",
+    "description": "My primary mission is to build robust, scalable digital infrastructures for companies—systems that increase revenue, save employee hours, and reduce operational mistakes to zero.",
+    "pillars": {
+      "productTitle": "Product-Minded Engineering",
+      "productDesc": "Every project is architected with a sharp focus on user experience (UX), high conversion rates, and genuine business logic.",
+      "techTitle": "Modern & Resilient Tech Stack",
+      "techDesc": "Built using Flutter, Laravel, Firebase, Node.js, and rock-solid REST APIs engineered for scalability and speed.",
+      "automationTitle": "End-to-End Process Automation",
+      "automationDesc": "Seamlessly connecting Telegram bots, CRM systems, and AI models to eliminate repetitive manual operations."
+    },
+    "stats": {
+      "stat1Num": "100%",
+      "stat1Label": "Commitment & Quality",
+      "stat2Num": "24/7",
+      "stat2Label": "System Reliability",
+      "stat3Num": "3x",
+      "stat3Label": "Workflow Acceleration"
+    }
+  },
+  "experience": {
+    "badge": "Real-World Experience & Products",
+    "title": "Proven solutions powering live business operations",
+    "subtitle": "Large-scale platforms and systems engineered for startups and enterprise clients.",
+    "automaster": {
+      "tag": "Featured Product / Startup Project",
+      "title": "AutoMaster — Automotive Service Platform",
+      "desc": "AutoMaster is a digital service platform designed to connect vehicle owners with automotive service professionals.",
+      "longDesc": "The platform enables car owners to discover nearby automotive workshops, inspect verified specialist profiles, book service appointments online, and track job statuses in real time. For service stations and master technicians, it provides a full order dispatching workflow, schedule planner, automated notifications, and an administrative management dashboard.",
+      "features": [
+        "Mobile Application (iOS & Android)",
+        "Workshop & Service Discovery",
+        "Online Booking & Queue Management",
+        "Customer & Specialist Portals",
+        "Telegram & Push Notifications",
+        "Map & Geolocation Integration",
+        "Comprehensive Admin Control Panel"
+      ],
+      "cta": "View Details"
+    },
+    "bizos": {
+      "tag": "Business Process Automation",
+      "title": "BIZOS — Business Process Automation",
+      "desc": "BIZOS focuses on business process systematization and automation. Within BIZOS, I work on improving company workflows through digital systems, CRM solutions, integrations, automation, and modern technologies.",
+      "longDesc": "Under the BIZOS umbrella, company sales funnels, customer communication channels, task tracking, and financial analytics are unified into an automated operational engine, drastically cutting costs and human error.",
+      "features": [
+        "In-depth Business Process Analysis",
+        "CRM & Sales Funnel Integration",
+        "Automated Workflows & Triggers",
+        "Telegram Monitoring & Notification Bots",
+        "AI-Driven Text & Lead Processing",
+        "Financial & Order Analytics",
+        "System Architecture & API Integration"
+      ],
+      "cta": "View Details"
+    }
+  },
+  "services": {
+    "badge": "Services",
+    "title": "Comprehensive digital services from concept to full launch",
+    "subtitle": "Tailored technological solutions aimed at scaling operations, improving customer retention, and driving revenue.",
+    "items": {
+      "s1": {
+        "num": "01",
+        "title": "Web Development",
+        "desc": "High-performance corporate websites, conversion-driven landing pages, web portals, and scalable cloud SaaS applications.",
+        "tags": ["Full-Stack", "Landing Page", "SaaS", "E-commerce", "REST API"]
+      },
+      "s2": {
+        "num": "02",
+        "title": "Telegram Bots & Mini Apps",
+        "desc": "High-throughput Telegram bots and web-based Mini Apps for sales automation, instant customer service, and payment processing.",
+        "tags": ["Telegram Mini App", "Click / Payme", "CRM Sync", "Auto-Replies"]
+      },
+      "s3": {
+        "num": "03",
+        "title": "Mobile Development",
+        "desc": "Cross-platform iOS and Android mobile apps developed with Flutter, featuring fluid 60fps UIs, offline caching, and responsive design.",
+        "tags": ["Flutter", "Dart", "iOS & Android", "Offline Sync", "Push Notifications"]
+      },
+      "s4": {
+        "num": "04",
+        "title": "AI Solutions & Integrations",
+        "desc": "Integrating OpenAI/ChatGPT and custom LLM agents into business operations for 24/7 intelligent customer support and automated document parsing.",
+        "tags": ["OpenAI API", "Smart Chatbot", "Document AI", "Automated Analytics"]
+      },
+      "s5": {
+        "num": "05",
+        "title": "Business Automation & CRM",
+        "desc": "Bespoke CRM architectures, lead management pipelines, automated dispatch workflows, and real-time operational reporting.",
+        "tags": ["CRM", "Lead Management", "Sales Funnel", "Notifications", "API"]
+      },
+      "s6": {
+        "num": "06",
+        "title": "Marketing & Digital Solutions",
+        "desc": "Conversion rate optimization (CRO), multi-channel marketing funnels, analytics tracking (GA4, Yandex Metrika), and technical SEO.",
+        "tags": ["Conversion UX", "SEO", "Web Analytics", "Marketing Funnel"]
+      },
+      "s7": {
+        "num": "07",
+        "title": "3D & Creative Technology",
+        "desc": "Interactive 3D visuals, polished motion design, and cutting-edge visual experiences that make your brand stand out from competitors.",
+        "tags": ["Interactive UI", "Motion Design", "Modern Web", "Creative UX"]
+      }
+    }
+  },
+  "automation": {
+    "badge": "Business Automation",
+    "title": "Automating repetitive processes to build faster and more efficient business workflows",
+    "subtitle": "Eliminate routine bottlenecks, retain every high-value lead, and monitor mission-critical metrics in real time.",
+    "features": {
+      "f1Title": "CRM & Sales Funnels",
+      "f1Desc": "Every inquiry is captured automatically and guided smoothly through pipeline stages with scheduled reminders.",
+      "f2Title": "Lead Management",
+      "f2Desc": "Incoming leads from Instagram, Telegram, websites, and calls are consolidated into a unified single source of truth.",
+      "f3Title": "Automated Workflows",
+      "f3Desc": "Invoicing, technician assignment, receipts, and order updates execute automatically without human delay.",
+      "f4Title": "Telegram Automation",
+      "f4Desc": "Instant operational notifications, order alerts, and executive summary reports pushed directly to your Telegram chat.",
+      "f5Title": "AI & Smart Assistants",
+      "f5Desc": "Trained artificial intelligence agents handling customer inquiries around the clock with human-like accuracy.",
+      "f6Title": "API & Third-Party Integration",
+      "f6Desc": "Frictionless connectivity across your website, payment processors (Click/Payme), ERPs, and courier APIs.",
+      "f7Title": "Automated Notifications",
+      "f7Desc": "Timely SMS, Telegram, and email alerts sent to clients regarding order statuses and upcoming appointments.",
+      "f8Title": "Internal Dashboards & BI",
+      "f8Desc": "Real-time analytics dashboards displaying daily revenue, deal conversion rates, and team productivity."
+    },
+    "impactBox": {
+      "title": "What Automation Delivers:",
+      "point1": "Saves up to 40% of team work hours",
+      "point2": "Accelerates customer response speed by 10x",
+      "point3": "Completely eliminates forgotten leads & manual mistakes",
+      "point4": "Ensures uninterrupted 24/7 sales and operational monitoring"
+    }
+  },
+  "portfolio": {
+    "badge": "Portfolio",
+    "title": "Featured projects and delivered digital systems",
+    "subtitle": "Each solution is engineered to solve a precise business challenge and deliver tangible commercial impact.",
+    "filters": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "bot": "Bots",
+      "ai": "AI",
+      "automation": "Automation",
+      "startup": "Startups"
+    },
+    "viewDetails": "Project Details",
+    "modalTech": "Technologies Used:",
+    "modalFeatures": "Key Features:",
+    "modalImpact": "Business Impact:",
+    "modalClose": "Close",
+    "discussProject": "Discuss a Similar Project"
+  },
+  "tech": {
+    "badge": "Technology Stack",
+    "title": "Modern, scalable, and battle-tested technologies",
+    "subtitle": "A robust toolkit engineered for reliability, enterprise security, and blazing performance.",
+    "categories": {
+      "frontend": "Frontend & Web",
+      "backend": "Backend & Database",
+      "mobile": "Mobile Development",
+      "automation": "AI, Bots & Automation",
+      "cloud": "Cloud, Git & Infrastructure"
+    }
+  },
+  "process": {
+    "badge": "Work Process",
+    "title": "An 8-step structured path from vision to production",
+    "subtitle": "Transparent milestones, predictable delivery timelines, and rigorous quality control at every phase.",
+    "steps": {
+      "step1": {
+        "num": "01",
+        "title": "Discovery",
+        "desc": "Initial consultation to explore business goals, target audience, technical scope, and project objectives."
+      },
+      "step2": {
+        "num": "02",
+        "title": "Analysis",
+        "desc": "Competitive research, technical feasibility assessment, and defining the optimal system architecture."
+      },
+      "step3": {
+        "num": "03",
+        "title": "Architecture",
+        "desc": "Designing relational database schemas, REST APIs, state flows, and data security protocols."
+      },
+      "step4": {
+        "num": "04",
+        "title": "Design",
+        "desc": "Crafting intuitive UX wireframes and high-conversion modern UI components tailored to your brand."
+      },
+      "step5": {
+        "num": "05",
+        "title": "Development",
+        "desc": "Writing clean, maintainable, and modular code according to enterprise development best practices."
+      },
+      "step6": {
+        "num": "06",
+        "title": "Testing",
+        "desc": "Comprehensive QA testing across mobile and desktop devices, load testing, and security checks."
+      },
+      "step7": {
+        "num": "07",
+        "title": "Launch",
+        "desc": "Production deployment, domain setup, uptime monitoring, and seamless client handover."
+      },
+      "step8": {
+        "num": "08",
+        "title": "Support",
+        "desc": "Ongoing maintenance, feature enhancements, stability monitoring, and prompt technical support."
+      }
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Have a project in mind? Let's turn it into a real product",
+    "subtitle": "Reach out through your preferred channel for consultations, inquiries, or project estimates.",
+    "infoTitle": "Direct Communication",
+    "infoDesc": "I typically respond within a few hours. For urgent requests, please send a direct message on Telegram.",
+    "labels": {
+      "email": "Email Address:",
+      "phone": "Phone Number:",
+      "telegram": "Telegram:",
+      "whatsapp": "WhatsApp:",
+      "location": "Location:",
+      "locationVal": "Uzbekistan (Remote & Worldwide)",
+      "schedule": "Availability:",
+      "scheduleVal": "Monday - Saturday (Flexible)"
+    },
+    "actionLabels": {
+      "writeEmail": "Send an Email",
+      "callPhone": "Call via Phone",
+      "openTelegram": "Chat on Telegram",
+      "openWhatsapp": "Message on WhatsApp"
+    }
+  },
+  "form": {
+    "title": "Submit a Project Request",
+    "subtitle": "Fill out the form below, and I will get back to you promptly.",
+    "labels": {
+      "name": "Your Name",
+      "phone": "Phone Number",
+      "telegram": "Telegram Username",
+      "email": "Email Address",
+      "company": "Company / Organization",
+      "service": "Service Type",
+      "budget": "Budget Range",
+      "message": "Project Details"
+    },
+    "placeholders": {
+      "name": "E.g., John Smith",
+      "phone": "+998 90 123 45 67",
+      "telegram": "@username",
+      "email": "you@domain.com",
+      "company": "Company name (optional)",
+      "service": "Select service type",
+      "budget": "Select budget range",
+      "message": "Describe your project vision, requirements, and desired timeline..."
+    },
+    "servicesOptions": {
+      "default": "Select service type",
+      "web": "Website / Web Platform",
+      "mobile": "Mobile App (Flutter / Cross-platform)",
+      "bot": "Telegram Bot / Mini App",
+      "ai": "AI Integration & Smart Assistant",
+      "automation": "Business Automation & CRM",
+      "complex": "Complex Digital System / Startup MVP"
+    },
+    "budgetOptions": {
+      "default": "Select budget range",
+      "b1": "$300 — $800 (Light system / Landing / Bot)",
+      "b2": "$800 — $2,000 (Medium project / CRM / Mini App)",
+      "b3": "$2,000 — $5,000 (Full mobile app / Comprehensive system)",
+      "b4": "$5,000+ (Complex ecosystem / Startup)"
+    },
+    "submit": "Send Request",
+    "sending": "Sending...",
+    "success": "✅ Your request has been sent successfully. I will contact you soon.",
+    "error": "❌ An error occurred. Please try again or reach out directly on Telegram.",
+    "validation": {
+      "nameRequired": "Please enter your name.",
+      "contactRequired": "Please enter your phone number or Telegram username.",
+      "messageRequired": "Please provide brief details about your project."
+    },
+    "cooldown": "Please wait a moment before submitting another request."
+  },
+  "ctaBanner": {
+    "title": "Ready to bring your digital vision to life?",
+    "subtitle": "Let's automate your company's workflows and launch a standout digital product.",
+    "btn": "Get in Touch"
+  },
+  "footer": {
+    "brandTagline": "Developer • Digital Solutions Specialist • Automation Specialist",
+    "aboutText": "Transforming business concepts into high-performing, profitable, and automated digital systems.",
+    "navTitle": "Quick Links",
+    "servicesTitle": "Specializations",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to Top"
+  },
+  "floating": {
+    "quickChat": "Contact Me",
+    "telegram": "Quick reply on Telegram",
+    "whatsapp": "Chat on WhatsApp",
+    "call": "Call Now"
+  }
+}

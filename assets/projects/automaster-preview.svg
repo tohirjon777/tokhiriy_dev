@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06142E"/>
+      <stop offset="100%" stop-color="#0A2A66"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#168BFF"/>
+    </linearGradient>
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#168BFF"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="glowEffect" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+
+  <!-- Grid overlay -->
+  <g opacity="0.08" stroke="#168BFF" stroke-width="1">
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="160" y1="0" x2="160" y2="500"/>
+    <line x1="320" y1="0" x2="320" y2="500"/>
+    <line x1="480" y1="0" x2="480" y2="500"/>
+    <line x1="640" y1="0" x2="640" y2="500"/>
+  </g>
+
+  <!-- Ambient Glow -->
+  <circle cx="580" cy="240" r="160" fill="#0066FF" opacity="0.18" filter="url(#glowEffect)"/>
+
+  <!-- Laptop / Web Dashboard Mockup in background -->
+  <g transform="translate(60, 60)" filter="url(#cardShadow)">
+    <!-- Dashboard Screen Frame -->
+    <rect x="0" y="0" width="460" height="300" rx="12" fill="#081A3A" stroke="rgba(22, 139, 255, 0.3)" stroke-width="2"/>
+    <!-- Dashboard Header -->
+    <rect x="0" y="0" width="460" height="38" rx="12" fill="#0D2550"/>
+    <circle cx="20" cy="19" r="5" fill="#EF4444"/>
+    <circle cx="36" cy="19" r="5" fill="#F59E0B"/>
+    <circle cx="52" cy="19" r="5" fill="#10B981"/>
+    <text x="80" y="24" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="600">AutoMaster • Master Control Panel</text>
+    
+    <!-- Sidebar -->
+    <rect x="0" y="38" width="110" height="262" fill="#0A1E42"/>
+    <rect x="14" y="54" width="82" height="14" rx="4" fill="url(#primaryGrad)"/>
+    <rect x="14" y="78" width="70" height="10" rx="3" fill="#1E3A8A"/>
+    <rect x="14" y="98" width="60" height="10" rx="3" fill="#1E3A8A"/>
+    <rect x="14" y="118" width="75" height="10" rx="3" fill="#1E3A8A"/>
+    <rect x="14" y="138" width="65" height="10" rx="3" fill="#1E3A8A"/>
+
+    <!-- Main Content Area -->
+    <g transform="translate(126, 52)">
+      <!-- Metric Cards -->
+      <rect x="0" y="0" width="95" height="52" rx="6" fill="#0D2550" stroke="rgba(22, 139, 255, 0.2)"/>
+      <text x="10" y="18" fill="#94A3B8" font-size="10" font-family="sans-serif">Faol Buyurtmalar</text>
+      <text x="10" y="40" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="sans-serif">24 ta</text>
+
+      <rect x="106" y="0" width="95" height="52" rx="6" fill="#0D2550" stroke="rgba(22, 139, 255, 0.2)"/>
+      <text x="116" y="18" fill="#94A3B8" font-size="10" font-family="sans-serif">Band Ustalar</text>
+      <text x="116" y="40" fill="#00E5FF" font-size="16" font-weight="bold" font-family="sans-serif">8 / 10</text>
+
+      <rect x="212" y="0" width="105" height="52" rx="6" fill="#0D2550" stroke="rgba(22, 139, 255, 0.2)"/>
+      <text x="222" y="18" fill="#94A3B8" font-size="10" font-family="sans-serif">Navbat Holati</text>
+      <text x="222" y="40" fill="#10B981" font-size="16" font-weight="bold" font-family="sans-serif">Optimal</text>
+
+      <!-- Live Order Queue Table -->
+      <rect x="0" y="66" width="317" height="168" rx="8" fill="#091E40" stroke="rgba(22, 139, 255, 0.15)"/>
+      <text x="14" y="86" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="sans-serif">Jonli Buyurtmalar Navbati</text>
+      
+      <!-- Table Rows -->
+      <line x1="0" y1="96" x2="317" y2="96" stroke="rgba(255, 255, 255, 0.08)"/>
+      
+      <g transform="translate(14, 114)">
+        <circle cx="6" cy="0" r="4" fill="#10B981"/>
+        <text x="18" y="4" fill="#FFFFFF" font-size="11" font-family="sans-serif">Chevrolet Malibu 2 • Moy almashtirish</text>
+        <rect x="235" y="-8" width="56" height="18" rx="4" fill="#059669"/>
+        <text x="243" y="5" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="sans-serif">Jarayonda</text>
+      </g>
+      
+      <g transform="translate(14, 142)">
+        <circle cx="6" cy="0" r="4" fill="#3B82F6"/>
+        <text x="18" y="4" fill="#FFFFFF" font-size="11" font-family="sans-serif">Kia K5 • Tormoz diagnostikasi</text>
+        <rect x="235" y="-8" width="56" height="18" rx="4" fill="#1D4ED8"/>
+        <text x="247" y="5" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="sans-serif">Kutilmoqda</text>
+      </g>
+
+      <g transform="translate(14, 170)">
+        <circle cx="6" cy="0" r="4" fill="#F59E0B"/>
+        <text x="18" y="4" fill="#FFFFFF" font-size="11" font-family="sans-serif">BYD Song Plus • Batareya tekshiruvi</text>
+        <rect x="235" y="-8" width="56" height="18" rx="4" fill="#D97706"/>
+        <text x="245" y="5" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="sans-serif">Bron qilindi</text>
+      </g>
+
+      <g transform="translate(14, 198)">
+        <circle cx="6" cy="0" r="4" fill="#10B981"/>
+        <text x="18" y="4" fill="#FFFFFF" font-size="11" font-family="sans-serif">Toyota Camry • Xodovoy sozlash</text>
+        <rect x="235" y="-8" width="56" height="18" rx="4" fill="#059669"/>
+        <text x="243" y="5" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="sans-serif">Jarayonda</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Mobile Phone Mockup in Foreground (Flutter App) -->
+  <g transform="translate(530, 80)" filter="url(#cardShadow)">
+    <!-- Phone Outer Case -->
+    <rect x="0" y="0" width="200" height="380" rx="30" fill="#050E20" stroke="#168BFF" stroke-width="3"/>
+    <!-- Phone Screen -->
+    <rect x="8" y="8" width="184" height="364" rx="24" fill="#071838"/>
+    <!-- Dynamic Island / Speaker -->
+    <rect x="68" y="16" width="64" height="12" rx="6" fill="#050E20"/>
+    
+    <!-- Mobile App Content -->
+    <g transform="translate(18, 42)">
+      <!-- Header -->
+      <text x="0" y="12" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="sans-serif">AutoMaster</text>
+      <circle cx="152" cy="8" r="10" fill="#0E2B60"/>
+      <path d="M149 11 L155 11 M149 8 L155 8 M149 5 L155 5" stroke="#FFFFFF" stroke-width="1.5"/>
+
+      <!-- Search Bar -->
+      <rect x="0" y="24" width="164" height="28" rx="8" fill="#0C2555" stroke="rgba(22, 139, 255, 0.3)"/>
+      <text x="10" y="42" fill="#94A3B8" font-size="10" font-family="sans-serif">🔍 Usta yoki servis qidirish...</text>
+
+      <!-- Category Pills -->
+      <g transform="translate(0, 62)">
+        <rect x="0" y="0" width="48" height="20" rx="10" fill="url(#primaryGrad)"/>
+        <text x="12" y="14" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="sans-serif">Moy</text>
+
+        <rect x="54" y="0" width="54" height="20" rx="10" fill="#0D2550"/>
+        <text x="62" y="14" fill="#94A3B8" font-size="9" font-family="sans-serif">Xodovoy</text>
+
+        <rect x="114" y="0" width="50" height="20" rx="10" fill="#0D2550"/>
+        <text x="122" y="14" fill="#94A3B8" font-size="9" font-family="sans-serif">Elektr</text>
+      </g>
+
+      <!-- Nearest Workshop Card -->
+      <rect x="0" y="94" width="164" height="96" rx="10" fill="#0E2D64" stroke="rgba(22, 139, 255, 0.3)"/>
+      <rect x="8" y="102" width="148" height="42" rx="6" fill="#143A80"/>
+      <!-- Map Pin Pin Graphic -->
+      <circle cx="82" cy="120" r="14" fill="#00E5FF" opacity="0.3"/>
+      <circle cx="82" cy="120" r="6" fill="#0066FF"/>
+      <text x="10" y="160" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="sans-serif">AvtoServis Pro Yunusobod</text>
+      <text x="10" y="174" fill="#F59E0B" font-size="9" font-family="sans-serif">⭐ 4.9 (128 ta baho) • 1.2 km</text>
+      <rect x="10" y="180" width="144" height="2" fill="rgba(255,255,255,0.1)"/>
+
+      <!-- Action Button -->
+      <rect x="0" y="200" width="164" height="34" rx="8" fill="url(#primaryGrad)"/>
+      <text x="32" y="222" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="sans-serif">Navbatga yozilish</text>
+
+      <!-- Bottom Nav Bar -->
+      <g transform="translate(0, 286)">
+        <line x1="-10" y1="0" x2="174" y2="0" stroke="rgba(255, 255, 255, 0.1)"/>
+        <circle cx="20" cy="16" r="4" fill="#00E5FF"/>
+        <circle cx="62" cy="16" r="4" fill="#64748B"/>
+        <circle cx="104" cy="16" r="4" fill="#64748B"/>
+        <circle cx="144" cy="16" r="4" fill="#64748B"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Tagline Banner in bottom left -->
+  <g transform="translate(60, 390)">
+    <rect x="0" y="0" width="430" height="54" rx="10" fill="rgba(6, 20, 46, 0.9)" stroke="rgba(0, 229, 255, 0.3)" stroke-width="1.5"/>
+    <circle cx="26" cy="27" r="12" fill="rgba(0, 229, 255, 0.15)"/>
+    <path d="M22 27 L25 30 L31 24" stroke="#00E5FF" stroke-width="2" fill="none"/>
+    <text x="50" y="25" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="sans-serif">Flutter • Laravel • Firebase • Maps • Telegram API</text>
+    <text x="50" y="42" fill="#94A3B8" font-size="11" font-family="sans-serif">Avtomobil servislarini to‘liq raqamlashtiruvchi platforma</text>
+  </g>
+</svg>

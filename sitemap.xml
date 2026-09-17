@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://tohirjon.dev/</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://tohirjon.dev/?lang=uz"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://tohirjon.dev/?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tohirjon.dev/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tohirjon.dev/"/>
+  </url>
+</urlset>

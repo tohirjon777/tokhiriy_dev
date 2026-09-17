@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="ecomBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06142E"/>
+      <stop offset="100%" stop-color="#08204D"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#ecomBg)"/>
+
+  <!-- Storefront Browser Frame -->
+  <g transform="translate(100, 50)">
+    <rect x="0" y="0" width="600" height="400" rx="14" fill="#0A1E40" stroke="rgba(22, 139, 255, 0.25)" stroke-width="2"/>
+    <rect x="0" y="0" width="600" height="42" rx="14" fill="#0E2B5C"/>
+    <circle cx="24" cy="21" r="5" fill="#EF4444"/>
+    <circle cx="40" cy="21" r="5" fill="#F59E0B"/>
+    <circle cx="56" cy="21" r="5" fill="#10B981"/>
+    <rect x="140" y="10" width="320" height="22" rx="6" fill="#081A38"/>
+    <text x="180" y="25" fill="#94A3B8" font-size="11" font-family="sans-serif">🔒 https://nexstore-shop.uz</text>
+
+    <!-- Product Grid -->
+    <g transform="translate(30, 60)">
+      <!-- Card 1 -->
+      <rect x="0" y="0" width="160" height="190" rx="10" fill="#0D2652"/>
+      <rect x="10" y="10" width="140" height="90" rx="6" fill="#143670"/>
+      <circle cx="80" cy="55" r="22" fill="#0066FF" opacity="0.4"/>
+      <text x="14" y="122" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="sans-serif">Smart Watch X Pro</text>
+      <text x="14" y="142" fill="#00E5FF" font-size="13" font-weight="bold" font-family="sans-serif">650 000 so‘m</text>
+      <rect x="14" y="154" width="132" height="26" rx="6" fill="#0066FF"/>
+      <text x="44" y="171" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">Savatga qo‘shish</text>
+
+      <!-- Card 2 -->
+      <rect x="190" y="0" width="160" height="190" rx="10" fill="#0D2652"/>
+      <rect x="200" y="10" width="140" height="90" rx="6" fill="#143670"/>
+      <circle cx="270" cy="55" r="22" fill="#F59E0B" opacity="0.4"/>
+      <text x="204" y="122" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="sans-serif">Wireless Buds 3</text>
+      <text x="204" y="142" fill="#00E5FF" font-size="13" font-weight="bold" font-family="sans-serif">420 000 so‘m</text>
+      <rect x="204" y="154" width="132" height="26" rx="6" fill="#0066FF"/>
+      <text x="234" y="171" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">Savatga qo‘shish</text>
+
+      <!-- Card 3 -->
+      <rect x="380" y="0" width="160" height="190" rx="10" fill="#0D2652"/>
+      <rect x="390" y="10" width="140" height="90" rx="6" fill="#143670"/>
+      <circle cx="460" cy="55" r="22" fill="#10B981" opacity="0.4"/>
+      <text x="394" y="122" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="sans-serif">Power Bank 20000</text>
+      <text x="394" y="142" fill="#00E5FF" font-size="13" font-weight="bold" font-family="sans-serif">290 000 so‘m</text>
+      <rect x="394" y="154" width="132" height="26" rx="6" fill="#0066FF"/>
+      <text x="424" y="171" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">Savatga qo‘shish</text>
+
+      <!-- Synchronized Telegram Notification Pill in bottom right -->
+      <g transform="translate(190, 210)">
+        <rect x="0" y="0" width="350" height="60" rx="10" fill="#061836" stroke="#00E5FF" stroke-width="1.5"/>
+        <circle cx="28" cy="30" r="14" fill="#0088CC"/>
+        <path d="M22 30 L27 33 L35 24" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+        <text x="52" y="26" fill="#00E5FF" font-size="11" font-weight="bold" font-family="sans-serif">Telegram Bot Sinxronizatsiyasi</text>
+        <text x="52" y="44" fill="#94A3B8" font-size="10" font-family="sans-serif">Ombor qoldiqlari va buyurtmalar 1 soniyada yangilanadi</text>
+      </g>
+    </g>
+  </g>
+</svg>
