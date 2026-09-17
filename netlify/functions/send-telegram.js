@@ -169,7 +169,7 @@ ${message}
   }
 
   const botToken = process.env.TELEGRAM_BOT_TOKEN || '8812743783:AAGIFTe4W0h0vEBwuEWkQCg0iDlqbO2i5to';
-  const chatId = process.env.TELEGRAM_CHAT_ID;
+  const chatId = process.env.TELEGRAM_CHAT_ID || '6786806832';
 
   // 7. Simulation Fallback for local testing / unconfigured environment
   if (!botToken || !chatId) {
